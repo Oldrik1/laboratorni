@@ -1,0 +1,27 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tech-stack-section ul {
+    display: flex;
+}
+
+.projects-section .inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.projects-section .inner article {
+    width: 30%;
+}
+
+.footer 
+.info {
+    display: flex;
+}
