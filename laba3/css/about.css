@@ -1,0 +1,97 @@
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 40px;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    color: #2d2d5d;
+    margin-bottom: 16px;
+  }
+  
+  h3 {
+    margin: 8px 0 4px;
+    font-size: 1.2rem;
+  }
+  
+  p {
+    margin: 4px 0;
+  }
+  
+  article {
+    border-bottom: 1px solid #eee;
+    padding: 12px 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .badge{
+    border-style: none;
+  }
+  
+  .badge {
+    display: inline-block;
+    padding: 4px 12px;
+    font-size: 0.75rem;
+    background-color: #D7FFE0;
+    border-color: #D7FFE0;
+    border-radius: 12px;
+    margin-top: 6px;
+    align-self: flex-end;
+  }
+
+  .badge-text{
+    color: #018C0F;
+  }
+  
+  .internship {
+    background-color: #91e5b0;
+  }
+
+  .job-meta {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 8px;
+  }
+  
+  .job-dates {
+    font-size: 0.85rem;
+    color: #666;
+    margin-top: 4px;
+  }
+
+  @media (min-width: 600px) {
+    article {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+  
+    .job-meta {
+      align-items: flex-end;
+      text-align: right;
+    }
+  }
+  
+  @media (min-width: 600px) {
+    article {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+  
+    article > div {
+      flex: 1;
+    }
+  
+    .badge {
+      margin-top: 0;
+      margin-left: 10px;
+    }
+  }

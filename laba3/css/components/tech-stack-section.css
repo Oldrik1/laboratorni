@@ -1,0 +1,20 @@
+.tech-stack-section-ul{
+    display: flex;
+    gap: 103px;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@media screen and (max-width: 1024px) {
+    .tech-stack-section-li{
+        display: flex;    
+        flex-wrap: wrap; 
+    }   
+}
+@media screen and (max-width: 768px) {
+        .tech-stack-section-li{
+            flex-wrap: wrap;
+            width: 100px;
+        } 
+}
