@@ -1,0 +1,26 @@
+.info{
+    display: flex;
+    justify-content: center;
+    gap: 33px;
+}
+
+.footer-ul{
+    display: flex;
+    gap: 22px;
+    margin-right: 48px;
+}
+
+.footer-ul{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-nav{
+    margin-top: 10px;
+}
+
+.footer-ul-nav{
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
